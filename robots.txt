@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://platepace.app/sitemap.xml
+Sitemap: https://junyu17.github.io/platepace-site/sitemap.xml
