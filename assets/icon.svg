@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PlatePace mark</title>
+  <desc id="desc">A fork, plate, leaf, and forward pace line in a rounded square.</desc>
+  <rect width="128" height="128" rx="28" fill="#0E6F61"/>
+  <circle cx="66" cy="66" r="34" fill="#F7F2EA"/>
+  <circle cx="66" cy="66" r="22" fill="#0E6F61" opacity=".12"/>
+  <path d="M39 34v28c0 6 4 11 10 12v22c0 4 3 7 7 7s7-3 7-7V74c6-1 10-6 10-12V34h-7v26h-6V34h-7v26h-6V34h-8Z" fill="#F7F2EA"/>
+  <path d="M86 36c15 8 19 27 8 42-13-1-24-9-28-21 6-13 12-19 20-21Z" fill="#8CCB5E"/>
+  <path d="M74 62c8-7 15-12 23-16" stroke="#0B4B43" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 94c18 9 45 9 68-8" stroke="#E7B75F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M99 78l11 8-13 4" stroke="#E7B75F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
