@@ -20,7 +20,7 @@
 
     <main class="legal">
       <h1>Privacy Policy</h1>
-      <p>Effective date: August 8, 2026</p>
+      <p>Effective date: August 13, 2026</p>
       <p>PlatePace helps users log meals, hydration, training, medication schedule notes, side effects, and doctor-ready exports. This policy explains what information the app may collect and how it is used.</p>
 
       <h2>Information We Collect</h2>
@@ -36,13 +36,13 @@
       <p>We use information to provide meal and training guidance, save user logs, enforce subscription limits, generate user-requested doctor exports, improve app reliability, and provide support.</p>
 
       <h2>Food Photos and AI Recognition</h2>
-      <p>When users submit a food photo for recognition, the image may be sent to PlatePace servers and an AI vision provider to estimate food items and portions. Users should review and correct the result before saving.</p>
+      <p>When users submit a food photo for recognition, the image is sent to a PlatePace-hosted AI gateway on our own server and then to Alibaba Cloud Model Studio (Qwen-VL) to estimate visible food items, portions, and nutrition. Nutrition Facts label, restaurant menu, and recipe photos or screenshots are first read by on-device Apple Vision OCR: when the OCR text is useful, only the extracted text is sent to the gateway and processed by DeepSeek, and the photo never leaves the device. When OCR text is absent or too short, the compressed image falls back through the same gateway to Qwen-VL. Pasted recipe text is processed on the device. The gateway processes images and text in memory and does not save them to PlatePace storage or any database, and its logs contain no image, text, or key content. Users should review and correct every result before saving. Provider-side handling is governed by the provider's applicable terms and the region configured for the service.</p>
 
       <h2>Health and Medical Boundary</h2>
       <p>PlatePace is not a medical device and does not diagnose conditions, prescribe medication, or recommend dose changes. Side-effect and medication logs are user records that can be exported for discussion with a clinician.</p>
 
       <h2>Sharing</h2>
-      <p>We do not sell personal information. We may share information with service providers that help operate the app, such as cloud hosting, AI recognition, purchase validation, analytics, crash reporting, and customer support. We may disclose information if required by law or to protect safety and security.</p>
+      <p>We do not sell personal information or use food photos for advertising or tracking. We may share information with service providers that help operate requested features, including our own VPS hosting, Alibaba Cloud AI recognition (Qwen-VL), DeepSeek AI text processing, and Apple purchase processing. We may disclose information if required by law or to protect safety and security.</p>
 
       <h2>User Controls</h2>
       <p>Users can edit or delete app records in the app where supported, revoke health permissions in system settings, and request account deletion or support by emailing <a href="mailto:billy.yu@me.com">billy.yu@me.com</a>.</p>
